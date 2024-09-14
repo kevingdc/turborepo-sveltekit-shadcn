@@ -1,9 +1,18 @@
 <script lang="ts">
-	import { Card, Button } from '@repo/ui';
-	import '@repo/ui/globals.css';
+	import { Button, Avatar, Card, Input } from '@repo/ui';
 </script>
 
-<h1>Web</h1>
-<!-- <MyCounterButton /> -->
-<Button variant="destructive">Hello</Button>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="h-full w-full">
+	<div class="flex h-full flex-col items-center justify-center">
+		<h1 class="text-2xl">Web</h1>
+		<Card.Root>
+			<Avatar.Root>
+				<Avatar.Fallback>CN</Avatar.Fallback>
+			</Avatar.Root>
+
+			<Button variant="default" class="rounded-full">Hello</Button>
+			<Input placeholder="Type something" />
+		</Card.Root>
+		<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	</div>
+</div>
