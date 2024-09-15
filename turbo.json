@@ -6,9 +6,6 @@
       "inputs": ["$TURBO_DEFAULT", ".env*"],
       "outputs": [".svelte-kit/**", ".vercel/**"]
     },
-    "prepare": {
-      "outputs": [".svelte-kit/**"]
-    },
     "lint": {},
     "dev": {
       "cache": false,

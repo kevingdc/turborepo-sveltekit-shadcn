@@ -23,7 +23,7 @@
     "tailwindcss": "^3.4.9"
   },
   "imports": {
-    "$lib/*": [
+    "#*": [
       "./src/*.ts",
       "./src/*.svelte"
     ]
