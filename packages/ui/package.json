@@ -30,8 +30,10 @@
   },
   "exports": {
     ".": {
-      "types": "./index.ts",
-      "svelte": "./index.ts"
-    }
+      "types": "./src/index.ts",
+      "svelte": "./src/index.ts"
+    },
+    "./globals.css": "./src/globals.css",
+    "./tailwind.config.ts": "./tailwind.config.ts"
   }
 }
