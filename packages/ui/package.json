@@ -5,7 +5,7 @@
   "module": "index.ts",
   "main": "index.ts",
   "scripts": {
-    "ui": "pnpm dlx  shadcn-svelte@latest",
+    "ui": "pnpm dlx shadcn-svelte@latest",
     "lint": "eslint ."
   },
   "devDependencies": {

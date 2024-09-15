@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Button, Avatar, Card, Input } from '../../../../packages/ui/src';
+	import { Button, Avatar, Card, Input } from '@repo/ui';
 </script>
 
 <div class="h-full w-full">
